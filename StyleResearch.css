@@ -1,0 +1,149 @@
+.everything{
+    background-color: antiquewhite
+}
+
+
+/*styling for title*/
+header{
+    font-size: 70px; /* Large font size for the header */
+    border-bottom: 3px solid black; /* Padding to create space around the text */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Spacing between letters */
+    background-color: antiquewhite;
+    z-index: 0;
+    color: black;
+    font-weight: bold;
+}
+.header1{
+    float:right;
+}
+
+.header-button{
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+.header-button:hover{
+    color: gray; /* Subtle hover effect */
+    text-decoration: none; /* Remove underline */
+}
+
+
+/*styling for buttons*/
+.header2{
+    float:right;
+    font-size: 40px;
+}
+ul{
+  list-style-type: none; /*removes dots before dot points*/ 
+}
+
+
+
+/* styling for the sub-text and sub-images*/
+.sub-header{
+    font-size: 40px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    float:left;
+    padding-bottom: 20px;
+}
+.sub-sub-header{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sub-image{
+    padding: 10px;
+    height:675px;
+    width:500px;
+    text-align: center;
+}
+.text-storage{
+    background-repeat: no-repeat;
+    background-size: cover; /* This will make the image cover the entire div */
+    background-position: center; /* This centers the image */
+    z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.underline{
+    border-top: 3px solid black;
+}
+
+/*Styling for the content text*/
+#content{
+    font-size: 1.05em;    
+    letter-spacing: 1px; 
+    text-align: left;
+    font-weight:lighter;
+}
+.contentBox {
+    margin-bottom: 50px; 
+    margin-top: 25px; 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.linkText{
+    color: black;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+.linkText:hover{
+    color: gray; /* Subtle hover effect */
+    text-decoration: none; /* Remove underline */
+}
+.sidebarHeader{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/*styling for footer*/
+footer {
+    background-color: antiquewhite; /* Matches the page style */
+    color: black; /* Text color for contrast */
+    font-size: 0.9rem;
+    border-top: 3px solid black; /* Adds a visual divider at the top */
+}
+
+/* Footer Links */
+.custom-footer-link {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-footer-link:hover {
+    color: gray; /* Subtle hover effect */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Footer Divider */
+.custom-footer-divider {
+    border-top: 2px solid black; /* Matches header and other section dividers */
+    margin: 1rem 0;
+}
+
+/* Footer Padding and Spacing */
+footer .row {
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 0.8rem; /* Slightly smaller for subtlety */
+    letter-spacing: 0.5px;
+}
