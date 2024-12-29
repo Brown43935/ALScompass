@@ -1,0 +1,252 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="StyleHome.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header>
+        <div class = "container">
+            <div class = "row">
+
+              <div class = "header1 col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12">
+                ALS Insider
+              </div>
+
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                <ul class="header-buttons d-flex justify-content-end align-items-center">
+                    <li class="mx-3">
+                        <a href="Home.html" class="header-button">Home</a>
+                    </li>
+                    <li class="mx-3">
+                        <router-link to="/Blog.html" class="header-button">About</router-link>
+                    </li>
+                    <li class="mx-3">
+                        <a href="Research.html" class="header-button">Research</a>
+                    </li>
+                </ul>
+            </div>
+
+              <div class="dropdown d-lg-none col-md-2 col-sm-12 col-xs-12" style = "bottom: 10px">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class = "dropdown-item header2">
+                     Instagram
+                    </a>
+                  </li>
+                  <li>
+                    <a class = "dropdown-item header2">
+                     LinkedIn
+                    </a>
+                  </li>
+                  <li>
+                    <a class = "dropdown-item header2">
+                     Twitter
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class = "everything">
+    <div class = "container-fluid p-0">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  
+        <div class="carousel-inner position-relative" id = "cc">
+  
+          <div class="carousel-item active">
+            <img src= "carousel-art-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption cc">
+              <h5 class = carousel-text>Donations.</h5>
+              <a href = "https://donate.als.ca/page/116715/donate/1" target = "_blank">
+                  <button class = "btn btn-sm btn-outline-dark">
+                   Link to ALS Canada
+                  </button>
+              </a>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <img src="carousel-art-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 class = carousel-text>Contact us!</h5>
+              <a href = "mailto:alsinsider@gmail.com" target = "_blank" class="btn btn-sm btn-outline-dark">
+                Email
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  
+    <div class="container-fluid underline"></div>
+  
+    <div class="container text-storage">
+      <div class="row">
+        <div class="col-12 text-center sub-header">
+          Learning Starts Here
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-4">
+          <div class = "row">
+            <div class = "sub-sub-header pb-1">
+              Easily Understandable
+            </div>
+          </div>  
+          <div class = "row">
+            <div class = "content">
+              ALS Insider is designed to present high-quality information in a widely understandable format. Our content is accessible and does not require a scientific background.
+            </div>
+          </div> 
+        </div>
+        <div class="col-4">
+          <div class = "row">
+            <div class = "sub-sub-header pb-1">
+              Accurate and cited
+            </div>
+          </div> 
+          <div class = "row">
+            <div class = "content">
+              ALS Insider does not conduct research; it solely redistributes research and information. We are dedicated to providing full accreditation to those involved in the research.
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class = "row">
+            <div class = "sub-sub-header pb-1">
+              Regularly Updated
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "content">
+              ALS Insider provides the latest research findings and developments in ALS. We provide updates about significant discoveries or events in the field of ALS research.
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  
+    
+  
+    <div class="container CARD">
+      <div class="row border-0">
+        <div class="col-6">
+          <div class="container p-5">
+            <div class="row">
+              <div class="col-12 sub-header">
+               Research and Studies
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <hr><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 content">
+                ALS research is a rapidly evolving and expanding field. Since much of the research is published in scientific papers, ALS Insider provides simplified summaries that focus on the key concepts and ideas of each study, removing less relevant details to make the findings more accessible.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 p-5">
+            <a href="Research.html" class="btn">
+                <img src="card-art-4.jpg" class="card-img-top" alt="...">
+            </a>
+        </div>
+      </div>
+    </div>
+  
+    <br>
+  
+    <!-- <div class="container CARD">
+      <div class="row">
+        <div class="col-6 p-5">
+          <router-link class="btn" to="/Blog">
+            <img src="Pictures/card-art-5.jpg" class="card-img-top" alt="...">
+          </router-link>
+        </div>
+        <div class="col-6">
+          <div class="container p-5">
+            <div class="row">
+              <div class="col-12 sub-header">
+               Community Blog
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <hr><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 content">
+                One of the primary goals of ALS Insider is to foster a supportive community where individuals can come together to share knowledge, experiences, and stories about ALS. By engaging in these discussions, there is an opportunity for collective learning and deeper understanding of the disease. We invite users to participate by sharing their own experiences, asking questions, or offering support to others. We also encourage respectful and thoughtful interactions, especially when contributing to the community blog.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+</main>
+
+<footer class="bg-antiquewhite text-dark py-4">
+  <div class="container">
+      <!-- Button Links Section -->
+      <div class="row text-center mb-4">
+          <div class="col-md-3 col-sm-6 mb-2">
+              <a href="#" class="custom-footer-link">
+                  About
+              </a>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-2">
+              <a href="https://donate.als.ca/page/116715/donate/1" target="_blank" class="custom-footer-link">
+                  Donations
+              </a>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-2">
+              <a href="mailto:alsinsider@gmail.com" class="custom-footer-link">
+                  Email
+              </a>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-2">
+              <a href="#" class="custom-footer-link">
+                  Terms & Conditions
+              </a>
+          </div>
+      </div>
+      <!-- Divider -->
+      <hr class="custom-footer-divider">
+      <!-- Copyright Section -->
+      <div class="row text-center">
+          <div class="col-12">
+              <p class="mb-0">© 2024 ALS Insider - Advancing ALS Education</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
